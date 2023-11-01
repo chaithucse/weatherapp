@@ -11,7 +11,7 @@ App follows MVVM architecture with Multi module structure
             search: to handle search screen
             weatherinfo: to handle weather home screen
 
-## Libraries
+### Android Components
     Used below components to built the application
         Compose: For UI screens
         Compose Navigation: To navigate between the composable screens
@@ -20,4 +20,5 @@ App follows MVVM architecture with Multi module structure
         Hilt: Used hilt for dependency injection
         Retrofit: Used retrofit for Network API calls
         Location: Used fusedlocationprovider to get location information of the user
+        mockk: for View model test cases
 

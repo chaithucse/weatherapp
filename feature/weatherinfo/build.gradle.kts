@@ -62,6 +62,16 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.46")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.7.1")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation("android.arch.core:core-testing:1.1.1")
+    testImplementation("io.mockk:mockk:1.13.8")
+    testImplementation("io.mockk:mockk-agent-jvm:1.13.8")
+    testImplementation("io.mockk:mockk-jvm:1.13.8")
+    testImplementation("io.mockk:mockk-android:1.13.8")
+
+    implementation("com.google.code.gson:gson:2.8.9")
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
@@ -70,8 +80,8 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
-
     implementation(libs.appcompat)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)

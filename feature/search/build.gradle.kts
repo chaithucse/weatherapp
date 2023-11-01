@@ -62,6 +62,16 @@ dependencies {
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 
     implementation("androidx.compose.material3:material3:1.1.2")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.7.1")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation("android.arch.core:core-testing:1.1.1")
+    testImplementation("io.mockk:mockk:1.13.8")
+    testImplementation("io.mockk:mockk-agent-jvm:1.13.8")
+    testImplementation("io.mockk:mockk-jvm:1.13.8")
+    testImplementation("io.mockk:mockk-android:1.13.8")
+
+    implementation("com.google.code.gson:gson:2.8.9")
 
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
